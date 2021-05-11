@@ -1,0 +1,8 @@
+com\lapitus\springcourse\config\SpringConfig.class
+com\lapitus\springcourse\dao\PersonDAO.class
+com\lapitus\springcourse\config\MySpringMvcDispatcherInitializer.class
+com\lapitus\springcourse\models\Person.class
+com\lapitus\springcourse\controllers\FirstController.class
+com\lapitus\springcourse\CalculatorActions.class
+com\lapitus\springcourse\controllers\PeopleController.class
+com\lapitus\springcourse\controllers\SecondController.class

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>This is simple calculator</title>
+</head>
+<p>
+Hi, this is a calculator.
+</p>
+
+<p> Your fist number is <text th:text="${firstNumber}"></text></p>
+<p> Your second number is <text th:text="${secondNumber}"></text></p>
+<p> Your action is <text th:text="${action}"></text></p>
+<p>Your result is <text th:text="${result}"></text></p>
+And All message is: <p th:text="${calculateMessage}"/>
+</body>
+</html>

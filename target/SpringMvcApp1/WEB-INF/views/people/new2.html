@@ -1,0 +1,20 @@
+<form th:method="POST" th:action="@{/people}" th:object="${person}" xmlns:th="http://www.w3.org/1999/xhtml">
+
+    <label for="name">Name</label>
+    <input name="name" th:field="*{name}" id="name"/>
+
+    <br>
+
+    <label for="surname">Name</label>
+    <input name="surname" th:field="*{surname}" id="surname"/>
+
+    <br>
+
+    <label for="email">Name</label>
+    <input name="email" th:field="*{email}" id="email"/>
+
+    <br>
+
+    <input type="submit" value="Add person">
+
+</form>
